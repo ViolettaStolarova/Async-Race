@@ -1,0 +1,72 @@
+.winners-title {
+  margin: 30px 0 15px 0;
+}
+
+.winners-box-container {
+  min-width: 470px;
+  max-width: 475px;
+
+  display: grid;
+  gap: 0.7rem;
+
+  margin: 5px;
+}
+
+.winners-table {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.winners-table-head,
+.winner-row {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2.5fr 1fr 1fr;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.winners-table-head {
+  padding: 10px;
+
+  background: #ccccff;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.table-title {
+  border-right: 2px solid #1e1e1e;
+}
+
+.car-time.table-title {
+  border: none;
+}
+
+.winner-row {
+  padding: 0 10px;
+
+  background: #ccccff65;
+  border-radius: 2px;
+}
+
+.id,
+.win-car,
+.win-model,
+.car-wins,
+.car-time {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+}
+
+.win-car {
+  position: static;
+}
+
+.win-car svg {
+  width: 70px;
+}
+
+.win-model {
+  position: static;
+  transform: none;
+}

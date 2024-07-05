@@ -1,0 +1,57 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  background: #1e1e1e;
+}
+
+.navigation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.garage-btn,
+.winners-btn {
+  min-width: 90px;
+
+  background: linear-gradient(to bottom, #ccccff 0%, #ccccff 100%);
+  border-bottom: 4px solid #a8a8eb;
+
+  font-size: 18px;
+}
+
+.winners-container,
+.garage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: linear-gradient(to bottom, #807979 0%, #807979 100%);
+  border-bottom: 4px solid #474141;
+  color: rgba(115, 105, 105, 0.886);
+}
+
+@media (max-width: 1000px) {
+  .garage-btn,
+  .winners-btn {
+    min-width: 80px;
+    font-size: 16px;
+  }
+}
