@@ -4,7 +4,7 @@
 Async Race - SPA manages the collection of cars, operate their engines, and show race statistics.
 
 ## Deploy
-[Async Race](https://violettastolarova.github.io/Async-Race/build/)
+[Async Race](https://violettastolarova.github.io/async-race/build/)
 
 ## Features
  - SPA application with 2 pages: garage and winners table
@@ -24,7 +24,7 @@ Async Race - SPA manages the collection of cars, operate their engines, and show
 - Go to folder async-race-api: $ cd async-race-api
 - Install dependencies: $ npm install
 - Start server: $ npm start
-- Follow the deploy [link](https://violettastolarova.github.io/Async-Race/build/)
+- Follow the deploy [link](https://violettastolarova.github.io/async-race/build/)
 
 ### Basic Structure
 - Two main views: "Garage" and "Winners", each with their name, page number, and a count of items in the database.
