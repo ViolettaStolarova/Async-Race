@@ -1,7 +1,7 @@
 # Async Race 🚗
 
 ## Description
-Async Race - SPA manages the collection of cars, operate their engines, and show race statistics.
+Async Race - SPA manages the collection of cars, operate their engines, and show race statistics
 
 ## Deploy
 [Async Race](https://violettastolarova.github.io/async-race/build/)
